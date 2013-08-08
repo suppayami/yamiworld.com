@@ -1,0 +1,19 @@
+---
+layout: default
+title: Index
+---
+
+<div id="home">
+  <center><p class="lead"><a href="/"><span class="text-success">Home</span></a> | 
+  <a href="/about"><span class="muted">About me</span></a> | 
+  <a href="#footer"><span class="muted">Contact</span></a></p></center>
+  <div class="posts">
+    {% for post in site.posts %}
+      <span class="muted">[{{ post.date | date_to_string }}]</span>&nbsp;<span><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></span>
+      <p><small><em>{{ post.description }}</em></small></p>
+      {% unless forloop.last %}
+      <hr/>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Rolling in my new blog!"
+date:   2013-07-26 00:53:41
+tags: ['update', 'random', 'rant', 'bootstrap', 'jekyll', 'blog']
+description: "Nothing new, just a static site and a simple theme."
+---
+
+Well, I'm tired of wordpress so I decided to make a new blog. Nothing 
+special, just a static site though. I still prefer Vietnamese in this 
+blog so for my international friends, please go to [Symphoria](http://symphonyan.org)
+for more information, or find English posts there which are marked with 
+**\[E\]** in their names.
+
+Chán wordpress quá nên đành phải lập blog mới, lần này làm static site 
+cho nhẹ nhàng vậy. Thôi thì đây sẽ là nơi tự sướng mới của mình, đồng thời 
+sẽ post nhiều thứ liên quan đến programming, web, games development,... 
+nhiều hơn trước thay vì chủ yếu tự sướng.
+
+Theme của blog này có khả năng sẽ thay đổi thường xuyển do mình sẽ tập 
+design trên chính blog này, mong các bạn nếu rảnh hãy góp ý cho mình về 
+theme nhé ~
+
+Thanks [Chin](http://ngochin.com) for [Twitter Bootstrap](http://twitter.github.io/bootstrap/) and [Jekyll](http://jekyllrb.com) information.

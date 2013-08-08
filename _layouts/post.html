@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<center><p class="lead"><a href="/"><span class="muted">Home</span></a> | 
+  <a href="/about"><span class="muted">About me</span></a> | 
+  <a href="#footer"><span class="muted">Contact</span></a></p></center>
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date: "%d %B %Y" }}</p>
+<div class="post">
+<!-- Begin Like/+1 Button. -->
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=273843815176";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="http://yamiworld.com{{ page.url }}" data-width="768" data-layout="button_count" data-show-faces="false" data-send="false"></div><span width="8"> </span>
+<div class="g-plusone" data-size="medium"></div>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<!-- End Like/+1 Button. -->
+<p><small><em>"{{ page.description }}"</em></small></p>
+{{ content }}
+<p><small>tags: <em>{% for tag in page.tags %}{{ tag }}&nbsp;{% endfor %}</em></small></p>
+<div class="fb-comments" data-href="http://yamiworld.com{{ page.url }}" data-width="672"></div>
+</div>
