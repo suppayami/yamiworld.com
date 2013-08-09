@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta property=“og:title” content=“airohpmyS | Rolling in my new blog!" />
+        <meta property=“og:title” content=“airohpmyS | [E] Luna Engine Notes" />
 		<meta property=“og:image” content=“http://yamiworld.com/img/profilepic.jpg” />
 		<meta property="fb:admins" content="837014671"/>
-        <title>airohpmyS | Rolling in my new blog!</title>
+        <title>airohpmyS | [E] Luna Engine Notes</title>
         <meta name="viewport" content="width=device-width">
 
         <!-- syntax highlighting CSS -->
@@ -46,8 +46,8 @@
                 <center><p class="lead"><a href="/"><span class="muted">Home</span></a> | 
   <a href="/about"><span class="muted">About me</span></a> | 
   <a href="#footer"><span class="muted">Contact</span></a></p></center>
-<h2>Rolling in my new blog!</h2>
-<p class="meta">26 July 2013</p>
+<h2>[E] Luna Engine Notes</h2>
+<p class="meta">09 August 2013</p>
 <div class="post">
 <!-- Begin Like/+1 Button. -->
 <script>(function(d, s, id) {
@@ -57,7 +57,7 @@ js = d.createElement(s); js.id = id;
 js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=273843815176";
 fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like" data-href="http://yamiworld.com/2013/07/26/new-blog/" data-width="768" data-layout="button_count" data-show-faces="false" data-send="false"></div><span width="8"> </span>
+<div class="fb-like" data-href="http://yamiworld.com/2013/08/09/luna-engine-notes/" data-width="768" data-layout="button_count" data-show-faces="false" data-send="false"></div><span width="8"> </span>
 <div class="g-plusone" data-size="medium"></div>
 <script type="text/javascript">
   (function() {
@@ -67,25 +67,81 @@ fjs.parentNode.insertBefore(js, fjs);
   })();
 </script>
 <!-- End Like/+1 Button. -->
-<p><small><em>"Nothing new, just a static site and a simple theme."</em></small></p>
-<p>Well, I&#39;m tired of wordpress so I decided to make a new blog. Nothing 
-special, just a static site though. I still prefer Vietnamese in this 
-blog so for my international friends, please go to <a href="http://symphonyan.org">Symphoria</a>
-for more information, or find English posts there which are marked with 
-<strong>[E]</strong> in their names.</p>
+<p><small><em>"Some notes you should know when using Luna Engine for RPG Maker VX Ace."</em></small></p>
+<p>Luna Engine, an GUI overhaul scripts series for RPG Maker VX Ace, is going to be released soon. 
+In this post, I will note something you should know before using it for your projects.</p>
 
-<p>Chán wordpress quá nên đành phải lập blog mới, lần này làm static site 
-cho nhẹ nhàng vậy. Thôi thì đây sẽ là nơi tự sướng mới của mình, đồng thời 
-sẽ post nhiều thứ liên quan đến programming, web, games development,... 
-nhiều hơn trước thay vì chủ yếu tự sướng.</p>
+<ol>
+<li><p><strong>Installation:</strong><br>
+For the best performance, you should place scripts in this below order:</p>
 
-<p>Theme của blog này có khả năng sẽ thay đổi thường xuyển do mình sẽ tập 
-design trên chính blog này, mong các bạn nếu rảnh hãy góp ý cho mình về 
-theme nhé ~</p>
+<ul>
+<li>Configurations for both Menu and Battle Luna, any change in order does not cause any problem.</li>
+<li>Lunatic Configurations for Menu Luna.</li>
+<li>Battle Luna Core.</li>
+<li>Menu Luna Core.</li>
+<li>Battle Luna Add-ons:<br>
 
-<p>Thanks <a href="http://ngochin.com">Chin</a> for <a href="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a> and <a href="http://jekyllrb.com">Jekyll</a> information.</p>
+<ul>
+<li>Actor Commands.</li>
+<li>Damage Popup.</li>
+<li>Image Popup</li>
+<li>Escape Command.</li>
+<li>Skill &amp; Item List.</li>
+<li>Disable Party Commands.</li>
+<li>Circular Bars.</li>
+<li>Shaking HUD.</li>
+<li>Lunatic Face.</li>
+</ul></li>
+<li>Menu Luna Add-ons:
 
-<p><small>tags: <em>update&nbsp;random&nbsp;rant&nbsp;bootstrap&nbsp;jekyll&nbsp;blog&nbsp;</em></small></p>
+<ul>
+<li>Grid Status.</li>
+<li>Lunatic Background.</li>
+</ul></li>
+</ul></li>
+<li><p><strong>Compatibility:</strong><br>
+Because of the huge changes to RGSS3 in Luna Engine, it would cause some compatibility matters 
+to other scripts (mostly big Battle System and GUI-relating scripts). Fortunately, due the large 
+usage of Yanfly Engine, Kread Scripts, we decided to make a compatible patch for Luna Engine and 
+those above Engine. Of course, Symphony Engine is included in compatible patch as well.</p>
+
+<ul>
+<li><strong>Kread Scripts:</strong><br>
+Put them below Luna Engine but above Kread Compatible Script.<br>
+For Animated Battlers, in Battle Luna Configuration, find <code>:animation_on_hud</code> and set to <code>false</code>.</li>
+<li><strong>Symphony Engine:</strong><br>
+Put them below Luna Engine.<br>
+For Battle Symphony, in Battle Luna Configuration, find <code>:animation_on_hud</code> and set to <code>false</code>.</li>
+<li><strong>Yanfly Engine:</strong><br>
+Except YEA - Core Engine and YEA - Battle Engine, put them below Luna Engine but above Yanfly Compatible Script. For those 2 exceptions, put them above Luna Engine.<br>
+For YEA - Free Turn Battle, in Yanfly Compatible Script, find <code>:arrow_battler</code> and set to <code>true</code>.</li>
+<li><strong>Other sideview scripts:</strong><br>
+In Battle Luna Configuration, find <code>:animation_on_hud</code> and set to <code>false</code>.</li>
+</ul></li>
+<li><p><strong>Configuration:</strong><br>
+The configurations for Luna Engine are huge, so you should check the note we made in configurations carefully and read some GUI presets we made for more information before asking us why and how. However, there are still some notes we have to write there:</p>
+
+<ul>
+<li><strong>Resources:</strong><br>
+For configuration that use an external picture instead of default draw, please put them in Graphics/System folder.</li>
+<li><strong>Options:</strong><br>
+There are some options in configuration which would cause some confusion to users so we have to note them there.
+
+<ul>
+<li><code>:z</code> This option is used for layering, higher value will be drawn above other.</li>
+<li><code>:center</code> This option appears in Battle Luna (inside <code>BATTLER_HUD</code>) and Menu Luna (Main Menu configuration, inside <code>BATTLER_STATUS</code>), set this to <code>true</code> to center battler HUDs.</li>
+<li><code>:cursor</code> This option appears in Menu Luna configuration, set this to <code>false</code> to disable default cursor of window.</li>
+<li><code>:padding</code> This option appears in Menu Luna configuration, this will change the spacing between window&#39;s border and window&#39;s contents. Default value is <code>12</code>.</li>
+</ul></li>
+<li><strong>Lunatic Options for Menu Luna:</strong><br>
+These options are only available for users who have some coding knowledge. For more information, please read notes in each Lunatic Configuration script and our premade GUI.<br>
+To disable Lunatic Options, you shouldn&#39;t remove those lunatic scripts, instead, you should put 
+this line inside each method <code>return nil</code> or remove all contents inside each method.</li>
+</ul></li>
+</ol>
+
+<p><small>tags: <em>rpg&nbsp;maker&nbsp;vx&nbsp;ace&nbsp;luna&nbsp;engine&nbsp;</em></small></p>
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
