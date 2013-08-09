@@ -68,15 +68,14 @@ fjs.parentNode.insertBefore(js, fjs);
 </script>
 <!-- End Like/+1 Button. -->
 <p><small><em>"Some notes you should know when using Luna Engine for RPG Maker VX Ace."</em></small></p>
-<p>Luna Engine, an GUI overhaul scripts series for RPG Maker VX Ace, is going to be released soon. 
-In this post, I will note something you should know before using it for your projects.</p>
+<p>Luna Engine is series of scripts that overhauls the GUI for RPG Maker VXAce. This post notes something you should know before using it for your projects.</p>
 
 <ol>
 <li><p><strong>Installation:</strong><br>
-For the best performance, you should place scripts in this below order:</p>
+For the best performance and avoiding any issues, you should place scripts based on the order below:</p>
 
 <ul>
-<li>Configurations for both Menu and Battle Luna, any change in order does not cause any problem.</li>
+<li>Configurations for both Menu and Battle Luna. You can put both Menu and Battle Luna&#39;s configuration script on top of each other and it won&#39;t cause any problem.</li>
 <li>Lunatic Configurations for Menu Luna.</li>
 <li>Battle Luna Core.</li>
 <li>Menu Luna Core.</li>
@@ -101,10 +100,7 @@ For the best performance, you should place scripts in this below order:</p>
 </ul></li>
 </ul></li>
 <li><p><strong>Compatibility:</strong><br>
-Because of the huge changes to RGSS3 in Luna Engine, it would cause some compatibility matters 
-to other scripts (mostly big Battle System and GUI-relating scripts). Fortunately, due the large 
-usage of Yanfly Engine, Kread Scripts, we decided to make a compatible patch for Luna Engine and 
-those above Engine. Of course, Symphony Engine is included in compatible patch as well.</p>
+Luna Engine might not be compatible with Battle System and GUI-related scripts. This is because of the script&#39;s nature to provide flexibility towards customization. Fortunately, we made this compatible with the majority of Yanfly Engine,  Kread Engine and the Symphony Engine.</p>
 
 <ul>
 <li><strong>Kread Scripts:</strong><br>
@@ -120,22 +116,22 @@ For YEA - Free Turn Battle, in Yanfly Compatible Script, find <code>:arrow_battl
 In Battle Luna Configuration, find <code>:animation_on_hud</code> and set to <code>false</code>.</li>
 </ul></li>
 <li><p><strong>Configuration:</strong><br>
-The configurations for Luna Engine are huge, so you should check the note we made in configurations carefully and read some GUI presets we made for more information before asking us why and how. However, there are still some notes we have to write there:</p>
+We have provided necessary comments and notes in the configuration script itself. Please check the notes and observe carefully. We will also provide GUI templates for reference and possibly closer to your goal. However, there are some things you should remember:</p>
 
 <ul>
 <li><strong>Resources:</strong><br>
-For configuration that use an external picture instead of default draw, please put them in Graphics/System folder.</li>
+If you want to use images for your GUI, please put them in Graphics/System folder.</li>
 <li><strong>Options:</strong><br>
-There are some options in configuration which would cause some confusion to users so we have to note them there.
+Here are some technical terms that will help you understand Luna Engine better.
 
 <ul>
-<li><code>:z</code> This option is used for layering, higher value will be drawn above other.</li>
+<li><code>:z</code> This option is used for layering, the higher value will be drawn/displayed above another.</li>
 <li><code>:center</code> This option appears in Battle Luna (inside <code>BATTLER_HUD</code>) and Menu Luna (Main Menu configuration, inside <code>BATTLER_STATUS</code>), set this to <code>true</code> to center battler HUDs.</li>
-<li><code>:cursor</code> This option appears in Menu Luna configuration, set this to <code>false</code> to disable default cursor of window.</li>
+<li><code>:cursor</code> This option appears in Menu Luna configuration, set this to false to disable the default cursor of a specific window.</li>
 <li><code>:padding</code> This option appears in Menu Luna configuration, this will change the spacing between window&#39;s border and window&#39;s contents. Default value is <code>12</code>.</li>
 </ul></li>
 <li><strong>Lunatic Options for Menu Luna:</strong><br>
-These options are only available for users who have some coding knowledge. For more information, please read notes in each Lunatic Configuration script and our premade GUI.<br>
+These options are only available for users who have some coding knowledge. For more information, please read the notes in each Lunatic Configuration script and our premade GUI. 
 To disable Lunatic Options, you shouldn&#39;t remove those lunatic scripts, instead, you should put 
 this line inside each method <code>return nil</code> or remove all contents inside each method.</li>
 </ul></li>
