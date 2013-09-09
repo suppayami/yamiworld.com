@@ -3,6 +3,7 @@ layout: post
 title:  "Rolling in my new blog!"
 date:   2013-07-26 00:53:41
 tags: ['update', 'random', 'rant', 'bootstrap', 'jekyll', 'blog']
+cat: 'blog'
 description: "Nothing new, just a static site and a simple theme."
 ---
 

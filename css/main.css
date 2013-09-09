@@ -16,6 +16,10 @@ body {
   background-color: #f9f9f9;
 }
 
+.sitemap {
+  text-align: center;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -74,8 +78,9 @@ body {
 }
 .post pre {
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: #eff;
   padding: 0 .4em;
+  color: #113399;
 }
 
 .post ul, .post ol {
@@ -90,6 +95,10 @@ body {
 
 .post pre code {
   border: none;
+}
+
+.post ul {
+  margin-left: 3em;
 }
 
 /* terminal */

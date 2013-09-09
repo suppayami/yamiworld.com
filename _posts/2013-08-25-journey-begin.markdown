@@ -3,6 +3,7 @@ layout: post
 title:  "Xa nhà"
 date:   2013-08-25 11:07:00
 tags: ['update', 'life', 'blog']
+cat: 'blog'
 description: "Ghi chép ngày đầu đi xa nhà."
 ---
 <center><img src="/img/img1-2013-08-25.jpg" alt="Tự sướng trên máy bay" /></center>

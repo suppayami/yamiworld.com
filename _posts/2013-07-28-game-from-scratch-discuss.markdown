@@ -3,6 +3,7 @@ layout: post
 title:  "Game from scratch: Nên hay không?"
 date:   2013-07-28 11:35:41
 tags: ['update', 'random', 'rant', 'game', 'indie', 'development', 'scratch', 'programming']
+cat: 'article'
 description: "Bàn luận về việc tự phát triển game từ con số không."
 ---
 

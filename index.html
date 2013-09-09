@@ -1,19 +1,36 @@
 ---
 layout: default
-title: Index
+title: Home
 ---
 
 <div id="home">
-  <center><p class="lead"><a href="/"><span class="text-success">Home</span></a> | 
-  <a href="/about"><span class="muted">About me</span></a> | 
-  <a href="#footer"><span class="muted">Contact</span></a></p></center>
-  <div class="posts">
-    {% for post in site.posts %}
-      <span class="muted">[{{ post.date | date_to_string }}]</span>&nbsp;<span><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></span>
-      <p><small><em>{{ post.description }}</em></small></p>
-      {% unless forloop.last %}
-      <hr/>
-      {% endunless %}
-    {% endfor %}
+  <p class="lead sitemap"><a href="/"><span class="text-success">Home</span></a> | 
+    <a href="/blog"><span class="muted">Blog</span></a> | 
+    <a href="/study"><span class="muted">Study</span></a> | 
+    <a href="/article"><span class="muted">Article</span></a> | 
+    <a href="#footer"><span class="muted">Contact</span></a></p>
+  <h2>Yami's Summary</h2>
+
+  <div class="post">
+  <p>Founder of Symphoria - Indie Game Studio, Scripts Contributor of RPG Maker Web Community and Global Moderator of GamesVTS Community. Beside those positions, I am a computer programmer and web designer who have more than five years experience in fields.</p>
+
+  <p>I have been into game development since 2010 and currently working in my own studio. In addition, I seek to become one of the best game programmer and develop Games Industry in Vietnam.</p>
+
+  <p>Beside game development, I also have some experience in software and web designing. In 2013, I applied for Bachelor of Software Engineering in Oulu University of Applied Sciences and still try my best to become a great software engineer in the future.</p>
+
+  <dl class="dl-horizontal">
+      <dt>Full Name</dt>
+      <dd>Cuong Nguyen Tuan</dd>
+      <dt>International Name</dt>
+      <dd>Sairen Nguyen</dd>
+      <dt>Internet Name</dt>
+      <dd>Suppa Yami | Little Yami</dd>
+      <dt>Hometown</dt>
+      <dd>Hanoi, Vietnam</dd>
+      <dt>Education</dt>
+      <dd>Learning Bachelor of Information Technology at <a href="http://www.oamk.fi">Oulu University of Applied Sciences</a></dd>
+      <dt>Jobs</dt>
+      <dd>Founder of <a href="http://symphonyan.org">Symphoria</a> | Freelance Programmer of <a href="http://rpgmakerweb.com">RPG Maker Web</a> | Global Moderator of <a href="http://gamesvts.org/">GamesVTS</a></dd>
+  </dl>
   </div>
 </div>
