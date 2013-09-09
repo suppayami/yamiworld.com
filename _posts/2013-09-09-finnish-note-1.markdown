@@ -71,4 +71,16 @@ description: "1st note of Finnish."
 
 - 21   kaksikymmentäyksi
 - 22   kaksikymmentäkaksi
+
+- 100  sata
+- 200, 300, ..., 900	number + "sataa"
+
+- 1000	tuhat
+- 2000, 3000, ..., 9000		number + "tuhatta"
+
+- 500 000	viisisataatuhatta
+- 100 000, 200 000, ..., 900 000	number + "sataa" + "tuhatta"
+
+- 1 000 000		miljoona
+- 2 000 000, 3 000 000, ..., 9 000 000		number + "miljoonaa"
 </pre>

@@ -4,7 +4,7 @@ title:  "Finnish - Note 2"
 date:   2013-09-09 10:44:00
 tags: ['update', 'study', 'finnish']
 cat: 'study'
-description: "2st note of Finnish."
+description: "2nd note of Finnish."
 ---
 
 ###Hello - Hey
