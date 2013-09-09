@@ -3,7 +3,7 @@ layout: post
 title:  "[E] Game Structure - Part 1: Main Loop"
 date:   2013-09-09 14:30:00
 tags: ['update', 'game development', 'article']
-cat: 'article'
+cat: 'Article'
 description: "First article of game structure, learn how a game works."
 ---
 

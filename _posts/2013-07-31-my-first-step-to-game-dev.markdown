@@ -3,7 +3,7 @@ layout: post
 title:  "[E] My first step into game development"
 date:   2013-07-31 21:45:00
 tags: ['update', 'random', 'rant', 'life', 'hobby', 'game', 'development', 'English']
-cat: 'blog'
+cat: 'Blog'
 description: "This time I will talk about my first step into game development."
 ---
 

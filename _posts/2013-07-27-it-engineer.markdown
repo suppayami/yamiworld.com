@@ -3,7 +3,7 @@ layout: post
 title:  "Trai IT: Khô khan hay lãng mạn?"
 date:   2013-07-27 02:01:41
 tags: ['update', 'random', 'rant', 'life', 'it', 'romance', 'love']
-cat: 'blog'
+cat: 'Blog'
 description: "Tán nhảm về mức độ lãng mạn của trai  IT."
 ---
 

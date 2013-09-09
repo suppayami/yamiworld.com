@@ -3,7 +3,7 @@ layout: post
 title:  "Mobile games development - Đời có như mơ?"
 date:   2013-07-26 10:43:00
 tags: ['update', 'random', 'rant', 'indie', 'games', 'development']
-cat: 'article'
+cat: 'Article'
 description: "Những nhận định sai lầm và mặt trái của mobile games 
 development."
 ---

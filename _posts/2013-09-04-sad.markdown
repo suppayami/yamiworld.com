@@ -3,7 +3,7 @@ layout: post
 title:  "Buồn"
 date:   2013-09-04 10:43:00
 tags: ['update', 'life', 'love']
-cat: 'blog'
+cat: 'Blog'
 description: "Đơn giản là buồn."
 ---
 

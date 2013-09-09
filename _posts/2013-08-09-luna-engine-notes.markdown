@@ -3,7 +3,7 @@ layout: post
 title:  "[E] Luna Engine Notes"
 date:   2013-08-09 10:54:00
 tags: ['rpg', 'maker', 'vx', 'ace', 'luna', 'engine']
-cat: 'article'
+cat: 'Article'
 description: "Some notes you should know when using Luna Engine for RPG Maker VX Ace."
 ---
 

@@ -3,7 +3,7 @@ layout: post-explicit
 title:  "Sở thích: Soi mói và kì thị"
 date:   2013-07-28 00:45:41
 tags: ['update', 'random', 'rant', 'life', 'hobby']
-cat: 'blog'
+cat: 'Blog'
 description: "Phang phập về sở thích và những soi mói đời thường."
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Finnish - Note 1"
 date:   2013-09-09 10:43:00
 tags: ['update', 'study', 'finnish']
-cat: 'study'
+cat: 'Study'
 description: "1st note of Finnish."
 ---
 

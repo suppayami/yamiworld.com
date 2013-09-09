@@ -3,7 +3,7 @@ layout: post
 title:  "Tuần đầu tiên xa nhà"
 date:   2013-08-31 23:00:00
 tags: ['update', 'life']
-cat: 'blog'
+cat: 'Blog'
 description: "Tán phét về tuần đầu sống xa nhà."
 ---
 
