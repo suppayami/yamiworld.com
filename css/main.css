@@ -78,9 +78,8 @@ body {
 }
 .post pre {
   border: 1px solid #ddd;
-  background-color: #eff;
   padding: 0 .4em;
-  color: #113399;
+  color: #113377;
 }
 
 .post ul, .post ol {
@@ -89,7 +88,6 @@ body {
 
 .post code {
   border: 1px solid #ddd;
-  background-color: #eef;
   padding: 0 .2em;
 }
 
