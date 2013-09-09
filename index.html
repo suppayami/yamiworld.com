@@ -15,7 +15,7 @@ description: "Cuong Nguyen personal blog. All about personal matters, IT and gam
 
   <div class="posts">
     {% for post in site.posts limit:6 %}
-      <a href="{{ post.url }}"><span class="text-success">[{{ post.cat }}]</span><span class="muted">[{{ post.date | date_to_string }}]</span>&nbsp;<span><strong>{{ post.title }}</a></strong></span>
+      <a href="{{ post.url }}"><span class="text-success">[{{ post.cat }}]</span><span class="muted">[{{ post.date | date_to_string }}]</span>&nbsp;<span><strong>{{ post.title }}</strong></span></a>
       <p><small><em>{{ post.description }}</em></small></p>
       {% unless forloop.last %}
       <hr/>
