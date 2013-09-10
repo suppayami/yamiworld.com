@@ -31,6 +31,10 @@ body {
   margin: 3em auto 2em;
 }
 
+.header-layour {
+  background: #d35400;
+}
+
 .site .footer .profilepic {
   float: left;
   position: relative;
