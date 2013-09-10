@@ -31,8 +31,12 @@ body {
   margin: 3em auto 2em;
 }
 
-.header-layour {
+.header-layout {
   background: #d35400;
+  color: #fff;
+  font-size: 32px;
+  min-height: 300px;
+  width: 100%;
 }
 
 .site .footer .profilepic {
