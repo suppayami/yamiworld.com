@@ -135,6 +135,26 @@ body {
 .post {
   min-height: 250px;
 }
+
+.post img {
+  width: 640px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post .caption {
+  color: #2c3e50;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 90%;
+  width: 640px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .post pre {
   border: 1px solid #ddd;
   padding: 0 .4em;

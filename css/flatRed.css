@@ -141,6 +141,25 @@ body {
   min-height: 250px;
 }
 
+.post img {
+  width: 640px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post .caption {
+  color: #41130f;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 90%;
+  width: 640px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .post-title {
   color: #200907;
   font-weight: 600;
