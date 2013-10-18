@@ -1,0 +1,233 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; font-family: 'Open Sans', sans-serif; }
+
+body {
+  background-color: #ecf0f1;
+  font-weight: 500;
+}
+
+.sitemap {
+  padding-top: 8px;
+  text-align: center;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+/* standard */
+
+.site {
+  width: 56em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header */
+
+.header {
+  height: 200px;
+  width: 100%;
+  background-color: #d35400;
+}
+
+.header-contents {
+  padding-top: 2em;
+  color: #eeeeee;
+  font-weight: 500;
+  background-image: url(../img/Pumpkin.png);
+  background-repeat: no-repeat;
+  background-position: 100% 40%;
+}
+
+.header-contents a {
+  text-decoration: none;
+  color: #ecf0f1;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.header-contents a:hover {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+.header-contents .menu-current {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+/* body contents */
+
+.body-contents {
+  margin-top: 24px;
+  padding-top: 36px;
+}
+
+.body-contents .cat-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: #2c3e50;
+}
+
+/* footer */
+
+.footer {
+  margin-top: 72px;
+  height: 200px;
+  padding-top: 16px;
+  background-color: #220e00;
+  color: #fff;
+}
+
+.footer .footer-header {
+  font-size: 150%;
+}
+
+.footer .footer-information {
+  float: left;
+  margin-right: 6px;
+  padding-top: 16px;
+  padding-left: 24px;
+  font-size: 85%;
+}
+
+.footer .footer-copyright {
+  float: left;
+  width: 100%;
+  padding-top: 16px;
+  font-size: 90%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #df776e;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+
+.post {
+  min-height: 250px;
+}
+
+.post-title {
+  color: #200907;
+  font-weight: 600;
+}
+
+.post pre {
+  border: 1px solid #ddd;
+  padding: 0 .4em;
+  color: #113377;
+  font-family: 'Quattrocento', serif;
+  font-size: 15px;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  padding: 0 .2em;
+  font-family: 'Quattrocento', serif;
+  font-size: 14px;
+}
+
+.post pre code {
+  border: none;
+  font-family: 'Quattrocento', serif;
+  font-size: 14px;
+}
+
+.post ul {
+  margin-left: 3em;
+}
+
+.post a {
+  color: #f19c93;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.post a:hover {
+  color: #e74c3c;
+}
+
+/* posts list */
+
+.posts {
+  min-height: 300px;
+}
+
+.posts a {
+  text-decoration: none;
+  color: #34495e;
+  border-bottom: 2px solid #95a5a6;
+  font-weight: 600;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.posts a:hover {
+  text-decoration: none;
+  color: #c0392b;
+  border-bottom: 3px solid #2980b9;
+  margin-left: 5px;
+}
+
+.posts .post-list-title {
+  font-size: 150%;
+}
+
+.posts .post-list-description {
+  padding-top: 8px;
+  font-size: 95%;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}

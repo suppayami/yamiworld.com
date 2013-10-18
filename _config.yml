@@ -2,3 +2,4 @@ name: airohpmyS
 markdown: redcarpet
 pygments: true
 permalink: pretty
+layouts: ./_themes/_flatRed

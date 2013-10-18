@@ -3,12 +3,12 @@
     <head>
 
         <meta charset="utf-8">
-        <meta name="description" content="">
+        <meta name="description" content="{{ page.description }}">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta property="og:title" content="airohpmyS | Study" />
+        <meta property="og:title" content="airohpmyS | {{ page.title }}" />
         <meta property="og:image" content="http://yamiworld.com/img/profilepic.jpg" />
         <meta property="fb:admins" content="837014671"/>
-        <title>airohpmyS | Study</title>
+        <title>airohpmyS | {{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
         <!-- custom fonts -->
@@ -30,98 +30,21 @@
 
         <div class="header">
             <div class="site header-contents">
-                <h1 class="title"><a href="/">airohpmyS</a></h1>
+                <h1 class="title"><a href="/">{{ site.name }}</a></h1>
                 <p class="lead" style="padding-left: 2px;">the nerdy palace.</p>
                 <p class="lead sitemap">
-                    <a href="/"><span class="menu-muted">Home</span></a> | 
-                    <a href="/about"><span class="menu-muted">About</span></a> | 
-                    <a href="/blog"><span class="menu-muted">Blog</span></a> | 
-                    <a href="/study"><span class="menu-current">Study</span></a> | 
-                    <a href="/article"><span class="menu-muted">Article</span></a> | 
+                    <a href="/"><span class="{% if page.title == 'Home' %}menu-current{% else %}menu-muted{% endif %}">Home</span></a> | 
+                    <a href="/about"><span class="{% if page.title == 'About me' %}menu-current{% else %}menu-muted{% endif %}">About</span></a> | 
+                    <a href="/blog"><span class="{% if page.title == 'Blog' %}menu-current{% else %}menu-muted{% endif %}">Blog</span></a> | 
+                    <a href="/study"><span class="{% if page.title == 'Study' %}menu-current{% else %}menu-muted{% endif %}">Study</span></a> | 
+                    <a href="/article"><span class="{% if page.title == 'Articles' %}menu-current{% else %}menu-muted{% endif %}">Article</span></a> | 
                     <a href="#footer"><span class="menu-muted">Contact</span></a>
                 </p>
             </div>
         </div>
 
         <div class="site body-contents">
-            <div id="home">
-<div class="cat-title">Category: Study</div>
-  <div class="posts">
-    
-      
-      <span class="text-success">[Study]</span><span class="muted">[17 Oct 2013]</span>&nbsp;<span><strong></strong></span>
-      <div class="post-list-title"><a href="/2013/10/17/finnish-note-5/">Finnish - Note 5</a></div>
-      <div class="post-list-description">5th note of Finnish.</div>
-      
-      <hr/>
-      
-      
-    
-      
-    
-      
-      <span class="text-success">[Study]</span><span class="muted">[16 Sep 2013]</span>&nbsp;<span><strong></strong></span>
-      <div class="post-list-title"><a href="/2013/09/16/finnish-note-4/">Finnish - Note 4</a></div>
-      <div class="post-list-description">4th note of Finnish.</div>
-      
-      <hr/>
-      
-      
-    
-      
-    
-      
-    
-      
-      <span class="text-success">[Study]</span><span class="muted">[09 Sep 2013]</span>&nbsp;<span><strong></strong></span>
-      <div class="post-list-title"><a href="/2013/09/09/finnish-note-3/">Finnish - Note 3</a></div>
-      <div class="post-list-description">3rd note of Finnish.</div>
-      
-      <hr/>
-      
-      
-    
-      
-      <span class="text-success">[Study]</span><span class="muted">[09 Sep 2013]</span>&nbsp;<span><strong></strong></span>
-      <div class="post-list-title"><a href="/2013/09/09/finnish-note-2/">Finnish - Note 2</a></div>
-      <div class="post-list-description">2nd note of Finnish.</div>
-      
-      <hr/>
-      
-      
-    
-      
-      <span class="text-success">[Study]</span><span class="muted">[09 Sep 2013]</span>&nbsp;<span><strong></strong></span>
-      <div class="post-list-title"><a href="/2013/09/09/finnish-note-1/">Finnish - Note 1</a></div>
-      <div class="post-list-description">1st note of Finnish.</div>
-      
-      <hr/>
-      
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
-
+            {{ content }}
         </div>
 
         <div class="footer" id="footer">
