@@ -48,9 +48,6 @@ body {
   padding-top: 2em;
   color: #eeeeee;
   font-weight: 500;
-  background-image: url(../img/Pumpkin.png);
-  background-repeat: no-repeat;
-  background-position: 100% 40%;
 }
 
 .header-contents a {
